@@ -17,10 +17,6 @@ api-users-php
 
 - `src/index.php`: El punto de entrada de la aplicación. Incluye los archivos necesarios y gestiona la solicitud y respuesta.
 
-- `src/Controllers/UserController.php`: contiene una clase `UserController` que tiene métodos para manejar solicitudes relacionadas con el usuario, como `createUser`, `getUser`, `updateUser` y `deleteUser`.
-
-- `src/Models/User.php`: Contiene una clase `Usuario` que representa un usuario en la aplicación. Tiene propiedades como "id", "nombre" y métodos para interactuar con la base de datos como "guardar", "buscar", "actualizar" y "eliminar".
-
 - `src/Config/Database.php`: Contiene una clase `Database` que se encarga de conectarse a la base de datos. Tiene métodos como `getConnection` que devuelve una instancia de conexión.
 
 ## Configuración
