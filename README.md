@@ -8,8 +8,8 @@ Esta es una API simple para administrar usuarios, construida con PHP.
 api-users-php
 ├── src
 │   ├── index.php
-│   ├── Config
-│   └── Database.php
+│   └── Config
+│       └──Database.php
 └── README.md
 ```
 
